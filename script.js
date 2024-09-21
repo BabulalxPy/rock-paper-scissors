@@ -1,12 +1,12 @@
-console.log("Hello world")
+console.log("ROCK PAPER SCISSORS GAME")
 function getComputerChoice(){
     arr = ["rock","paper","scissors"]
     return arr[(Math.floor(Math.random() * arr.length))];
 }
 
 function getHumanchoice(){
-    let ans = prompt("Enter yout answer(rock,paper or scissors)")
-    return ans;
+    let ans = prompt("Enter your answer(rock,paper or scissors)")
+    return ans.toLowerCase();
 }
 
 
