@@ -83,3 +83,11 @@ if (humanScore > computerScore){
 else{
     console.log("You lost the game");
 }
+
+const container = document.querySelector("#container");
+
+const content = document.createElement("div");
+content.classList.add("content");
+content.textContent = "This is the glorious text-content!";
+content.style.backgroundColor = 'blue';
+container.appendChild(content);
